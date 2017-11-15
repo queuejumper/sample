@@ -40,11 +40,11 @@ $(function(){
 					$('.projects').find('img:last').attr('src',value.image);
 					$('.projects').find('.type:last').html(value.type);
 					$('.project-info:last').find('#name').html(value.name);
-					$('.project-info:last').find('#description p').html(
-						'<p id="description">'
-						+value.description
-						+'<a href="/single-project/'+value.project_id+'">'
-						+'</a></p>');
+					$('.project-info:last').find('#description').html(
+						value.description
+						+'<a id="details" href="/single-project/'+value.project_id+'">'
+						+' المزيد'
+						+'</a>');
 					$('.project-info:last').find('.country').html(value.country);
 					clonedRow = $('.projects').find('.project-row:last').clone();
 				});

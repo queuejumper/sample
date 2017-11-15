@@ -1,6 +1,7 @@
 <?php
 use app\models\Project;
 use app\controllers\ProjectController;
+$this->title = $project['name'];
 ?>  
     <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 grey-border round-corner">
         <div class="col-md-10 col-lg-10 col-xs-12 col-sm-12 center-table">

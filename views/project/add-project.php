@@ -2,6 +2,7 @@
 use yii\widgets\ActiveForm;
 use app\models\Project;
 use yii\helpers\Html;
+$this->title = 'أضف مشروع جديد';
 ?>
        
         <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 triangle-tabs no-border">

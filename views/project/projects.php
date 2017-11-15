@@ -2,6 +2,7 @@
 use app\models\Project;
 use app\controllers\ProjectController;
 use yii\helpers\Html;
+$this->title = 'المشروعات';
 ?>   
 
     <div role="tabpanel" class="tab-pane active" id="tab2">
